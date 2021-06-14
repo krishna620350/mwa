@@ -20,6 +20,7 @@ from django.conf.urls.static import static
 
 #import only
 from django.conf import url
+from django.conf.urls import serve
 
 urlpatterns = [
                   path('admin/', admin.site.urls),
